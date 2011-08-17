@@ -25,6 +25,7 @@ GIT_INSTALL="/c/Program Files (x86)/Git"
 function git() {
     PATH=$GIT_INSTALL/bin:$GIT_INSTALL/mingw/bin:$PATH git.exe $@ ;
 }
+. "$GIT_INSTALL/etc/git-completion.bash"
 
 # start in dev area
 cd /c/development
