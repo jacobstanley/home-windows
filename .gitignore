@@ -15,9 +15,12 @@ ntuser*
 
 # Config we don't want to store
 /.designer/
+/.gem/
 /.ssh/
 /.VirtualBox/
+/Console2/
 /mplayer/
+.gemrc
 .minttyrc
 _netrc
 
@@ -26,3 +29,6 @@ _netrc
 .rnd
 .viminfo
 _viminfo
+
+# Vim swap
+*.swp
