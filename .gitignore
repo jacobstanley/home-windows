@@ -1,0 +1,28 @@
+# Built-in
+/AppData/
+/Contacts/
+/Desktop/
+/Documents/
+/Downloads/
+/Favorites/
+/Links/
+/Music/
+/Pictures/
+/Videos/
+/Saved Games/
+/Searches/
+ntuser*
+
+# Config we don't want to store
+/.designer/
+/.ssh/
+/.VirtualBox/
+/mplayer/
+.minttyrc
+_netrc
+
+# Auto generated
+.bash_history
+.rnd
+.viminfo
+_viminfo

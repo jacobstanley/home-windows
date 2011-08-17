@@ -1,0 +1,23 @@
+[merge]
+	tool = bc3
+[user]
+	name = Jacob Stanley
+	email = j.stanley@fugro.com.au
+[core]
+	editor = vim
+	autocrlf = false
+	preloadindex = true
+[diff]
+	tool = bc3
+	guitool = bc3
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[difftool "bc3"]
+	path = C:/Program Files (x86)/beyond compare 3/bcomp.exe
+	cmd = \"C:/Program Files (x86)/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+[mergetool "bc3"]
+	path = C:/Program Files (x86)/beyond compare 3/bcomp.exe
+	cmd = \"C:/Program Files (x86)/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+	trustExitCode = true

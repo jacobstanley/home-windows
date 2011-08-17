@@ -1,0 +1,6 @@
+nnoremap <Space> @j
+
+" Replace word under cursor
+" usage: type \s on "foo" and then type "bar/g" to
+"        replace foo with bar
+nnoremap ,s yiw :%s/\\<<C-r><C-w>\\>/
