@@ -21,7 +21,9 @@ export LESS=-FRSX
 export PLINK_PROTOCOL=ssh
 
 # git support
-GIT_INSTALL="/c/Program Files (x86)/Git"
+if [ -z "$GIT_INSTALL" ]; then
+  GIT_INSTALL="/c/Program Files (x86)/Git"
+fi
 function git() {
     PATH=$GIT_INSTALL/bin:$GIT_INSTALL/mingw/bin:$PATH git.exe $@ ;
 }
