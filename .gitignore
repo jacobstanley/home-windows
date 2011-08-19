@@ -1,16 +1,28 @@
 # Built-in
 /AppData/
+/Application Data/
 /Contacts/
+/Cookies/
 /Desktop/
 /Documents/
 /Downloads/
 /Favorites/
+/IECompatCache/
+/IETldCache/
 /Links/
+/Local Settings/
+/My Documents/
 /Music/
 /Pictures/
+/PrivacIE/
+/Recent/
 /Videos/
 /Saved Games/
 /Searches/
+/SendTo/
+/Start Menu/
+/Templates/
+/UserData/
 ntuser*
 
 # Config we don't want to store
