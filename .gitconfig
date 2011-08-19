@@ -23,3 +23,8 @@
     path = C:/Program Files (x86)/beyond compare 3/bcomp.exe
     cmd = \"C:/Program Files (x86)/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
     trustExitCode = true
+[difftool "kdiff3"]
+    path = c:/Program Files/KDiff3/kdiff3.exe
+    cmd = \"c:/Program Files/KDiff3/kdiff3.exe\" \"$LOCAL\" \"$REMOTE\"
+[mergetool "kdiff3"]
+    path = c:/Program Files/KDiff3/kdiff3.exe
