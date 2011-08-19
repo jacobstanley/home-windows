@@ -1,1 +1,1 @@
-exe "source ~/vimfiles/vimrc" 
+source ~/vimfiles/vimrc

@@ -15,11 +15,18 @@ ntuser*
 
 # Config we don't want to store
 /.designer/
+/.eclipse/
 /.gem/
+/.gimp-2.6/
+/.nbi/
+/.netbeans/
 /.ssh/
+/.subversion/
 /.VirtualBox/
+/.thumbnails/
 /mplayer/
 .gemrc
+.recently-used.xbel
 .minttyrc
 _netrc
 
