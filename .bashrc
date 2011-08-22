@@ -29,5 +29,11 @@ function git() {
 }
 . "$GIT_INSTALL/etc/git-completion.bash"
 
+# tell mingw about /usr/local as it doesn't
+# use it on windows by default
+export PATH=$PATH:/usr/local/bin
+export CPLUS_INCLUDE_PATH=/usr/local/include
+export LIBRARY_PATH=/usr/local/lib
+
 # start in dev area
 cd /c/development
