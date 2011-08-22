@@ -38,6 +38,7 @@ ntuser*
 /.thumbnails/
 /mplayer/
 .gemrc
+.lesshst
 .recently-used.xbel
 .minttyrc
 _netrc
