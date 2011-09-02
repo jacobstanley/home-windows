@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ -z "$GIT_INSTALL" ]; then
+    echo "GIT_INSTALL not set, set it in your ~/.bashrc"
+fi
+PATH="$GIT_INSTALL/bin:$GIT_INSTALL/mingw/bin:$PATH" git.exe $@

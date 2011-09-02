@@ -20,20 +20,17 @@ export LESS=-FRSX
 # set default protocol for 'plink'
 export PLINK_PROTOCOL=ssh
 
-# git support
-if [ -z "$GIT_INSTALL" ]; then
-  GIT_INSTALL="/c/Program Files (x86)/Git"
-fi
-function git() {
-    PATH=$GIT_INSTALL/bin:$GIT_INSTALL/mingw/bin:$PATH git.exe $@ ;
-}
-. "$GIT_INSTALL/etc/git-completion.bash"
-
 # tell mingw about /usr/local as it doesn't
 # use it on windows by default
-export PATH=$PATH:/usr/local/bin
+export PATH=$HOME/bin:$PATH:/usr/local/bin
 export CPLUS_INCLUDE_PATH=/usr/local/include
 export LIBRARY_PATH=/usr/local/lib
+
+# git completion support
+if [ -z "$GIT_INSTALL" ]; then
+    export GIT_INSTALL="/c/Program Files (x86)/Git"
+fi
+. "$GIT_INSTALL/etc/git-completion.bash"
 
 # start in dev area
 cd /c/development
