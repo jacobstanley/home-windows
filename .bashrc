@@ -34,3 +34,5 @@ fi
 
 # start in dev area
 cd /c/development
+alias cdd="cd /c/development"
+alias cdn="cd /c/development/netcdf"
