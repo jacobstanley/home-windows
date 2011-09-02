@@ -23,7 +23,7 @@ export PLINK_PROTOCOL=ssh
 # tell mingw about /usr/local as it doesn't
 # use it on windows by default
 export PATH=$HOME/bin:$PATH:/usr/local/bin
-export CPLUS_INCLUDE_PATH=/usr/local/include
+export CPATH=/usr/local/include
 export LIBRARY_PATH=/usr/local/lib
 
 # git completion support
